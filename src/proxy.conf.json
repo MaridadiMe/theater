@@ -1,0 +1,6 @@
+{
+    "/openTheater": {
+      "target": "http://192.168.1.143:9999",
+      "secure": false
+    }
+  }

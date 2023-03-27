@@ -1,0 +1,22 @@
+<main role="main" class="bg-dark">
+    <div class="pt-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-10" *ngIf="movie">
+              <div class="ratio ratio-21x9" style="border:none;">
+                <video class="embed-responsive-item" style="width: 100%;" controls autoplay preload="metadata">
+                  <source src={{movie.upload}} type="video/mp4"> your browser does not support the video tag
+                </video>
+              </div>
+              <div>
+                
+              </div>
+              <div class="card-footer px-2">
+                <br>
+                <h4 class="card-title text-white">{{movie?.title}}</h4>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
